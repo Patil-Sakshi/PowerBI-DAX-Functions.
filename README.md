@@ -1,6 +1,6 @@
 # PowerBI-DAX-Functions.
 
-All the DAX Functions.
+All the DAX Query.
 
 
 1)Count of orders.
