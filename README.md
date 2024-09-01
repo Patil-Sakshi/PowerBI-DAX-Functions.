@@ -19,3 +19,11 @@ Another Method to Count the Orders.
 
 3)Profit Cost
 -->Profit Cost = SUM(Orders[Selling Price]) - SUM(Orders[Product Cost])
+
+4)Total Profit
+-->Total Profit = (SUM(Orders[Selling Price]) - SUM(Orders[Product Cost])) * SUM(Orders[Quantity])
+
+5)New Column VS New Measure
+New column- the data is static.
+New Measure- the data is dynamic , means it will give the differnt value for all the rows.
+
