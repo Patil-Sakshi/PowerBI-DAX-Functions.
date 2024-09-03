@@ -27,3 +27,10 @@ Another Method to Count the Orders.
 New column- the data is static.
 New Measure- the data is dynamic , means it will give the differnt value for all the rows.
 
+6)Order Day
+-->Order Day = WEEKDAY(Customers[Order Date],2)
+2 means ( monday =1 and sunday = 7)
+
+7)IF Function
+Order Category = IF(Orders[Quantity] < 30 ,"Small Order" , "Big Order")
+
